@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        /*
+         * 1 - Escribe un programa que imprima
+         * "Hola, Mundo!" en la consola.
+         */
+        
+        Console.WriteLine("Hola mundo!");
+
+    }
+}
