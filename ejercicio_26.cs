@@ -4,20 +4,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Comparador de cadenas");
-        Console.Write("Ingrese la primera cadena: ");
-        string cadena1 = Console.ReadLine();
-        
-        Console.Write("Ingrese la segunda cadena: ");
-        string cadena2 = Console.ReadLine();
+        /*
+        * 26 - Escribe un programa
+        * que compare dos cadenas
+        * y muestre un mensaje
+        * si son iguales.
+        */
+        string cadena1 = "hola";
+        string cadena2 = "holaa";
         
         if (cadena1 == cadena2)
         {
-            Console.WriteLine("Las cadenas son iguales");
+            Console.WriteLine("Cadenas iguales");
         }
         else
         {
-            Console.WriteLine("Las cadenas son diferentes");
+            Console.WriteLine("Cadenas no iguales");
         }
     }
 }
